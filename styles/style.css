@@ -1,0 +1,115 @@
+body {
+  background-color: rgba(181, 176, 176, 0.543);
+  color: rgb(18, 17, 17);
+  font-family: "14px lato";
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+header{
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-between;
+   align-items: center;
+}
+
+#title , h1{
+    flex-direction:column;
+    font-family: 'Cuprum' , sans-serif;
+    color:rgba(30, 28, 29, 0.831);
+}
+
+
+li{
+  display: inline-block;
+  margin: 20px;
+}
+
+a{
+  color: rgb(0, 0, 0);
+
+}
+
+a:hover{
+    color: rgb(251, 234, 247);
+    transition: 0.5s all;
+
+}
+
+#inscreva-se-btn{
+  border: 2px solid rgb(251, 234, 247);
+  padding: 10px;
+  color: black;
+  border-radius: 20px;
+  
+}
+
+#inscreva-se-btn:hover{
+  
+     background-color: rgb(251, 234, 247);
+     color: rgb(0, 0, 0);
+     border-radius: 15px;
+}
+
+
+main{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+h2{
+  font-size: 28px;
+  font-family: "sans-serif";
+
+}
+
+span{
+  color:rgb(0, 0, 0);
+  font-size: xx-small;
+}
+
+p{
+  line-height: 20.48px;
+  max-height: 200px;
+  font-family: "Roboto-Medium";
+  font-size: 20px;
+}
+
+img{
+  margin: 10px;
+  width: 700px;
+  
+ }
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+input{
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+
+form [type="submit"]{
+  height: 50px;
+  width: 50%;
+  background-color: rgb(rgb(251, 234, 247));
+  color: rgb(20, 19, 19);
+  border: 2px solid rgb(218, 218, 218);
+  font-weight: bold;
+
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(255, 227, 246);
+
+}
